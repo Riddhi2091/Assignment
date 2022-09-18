@@ -1,0 +1,74 @@
+.accordion-item:first-of-type .accordion-button{
+  border: none;
+  border-radius: 0 !important;
+}
+
+.accordion{
+  --bs-accordion-border-color:none;
+  --bs-accordion-btn-focus-border-color:none;
+  --bs-accordion-btn-focus-box-shadow:none;
+
+}
+.accordion-button:not(.collapsed) {
+    color: none !important;
+    background-color: #fff !important;
+    box-shadow: none !important;
+}
+.accordion-button:not(.collapsed){
+  color: none !important;
+}
+
+.accordion-button{
+  height: 60px !important;
+  border-bottom: 1px solid #ECF1F4 !important;
+}
+
+.investory-heading img{
+  width: 35px ;
+  height: 40px;
+  margin-top: 4px;
+}
+.investory-heading input,.investory-items input{
+  width: 15px !important;
+  height: 15px !important;
+}
+.investory-items{
+  color: black;
+}
+.rating{
+  background-color: #ECF1F4;
+  color: #485572 !important;
+}
+.rating2{
+  border-left: 7px solid #ffff;
+}
+h6{
+  font-size: 16px;
+}
+p{
+  font-size: 14px;
+  color: #8C8CA1;
+}
+.container-fluid{
+  padding: 0;
+}
+
+
+.investory-heading{
+  border-bottom: 1px solid #ECF1F4 !important;
+  border-top: 1px solid #ECF1F4 !important;
+  font-size: 12px;
+  padding: 5px 0px;
+}
+.inventory a{
+  color: red;
+}
+.stock-lable{
+  background-color: #FFF2EE;
+  color: #811434;
+}
+
+.accordion-button{
+  padding: 0;
+  margin: 0;
+}
